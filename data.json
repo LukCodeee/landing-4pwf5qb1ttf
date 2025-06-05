@@ -1,376 +1,376 @@
 {
-    "root": {
-        "props": {
-            "title": "test"
+  "root": {
+    "props": {
+      "title": "test"
+    }
+  },
+  "zones": {},
+  "content": [
+    {
+      "type": "Hero",
+      "props": {
+        "id": "Hero-37f719f5-c8d1-4700-83bd-57f3713fd5ca",
+        "title": "Create Ads That Convert Instantly",
+        "tagline": "AI-POWERED CREATIVITY",
+        "description": "Automate your social media campaigns with our AI ad generator that crafts high-converting, scroll-stopping ads tailored to your brand and audience—boost engagement and ROI effortlessly.",
+        "highlightedWord": "Convert",
+        "primaryButtonDetails": {
+          "primaryButtonLink": "#create-ads",
+          "primaryButtonText": "Create Ad"
+        },
+        "secondaryButtonDetails": {
+          "secondaryButtonLink": "#features",
+          "secondaryButtonText": "How It Works",
+          "showSecondaryButton": false
         }
+      }
     },
-    "zones": {},
-    "content": [
-        {
-            "type": "Hero",
-            "props": {
-                "id": "Hero1-793ea387-eb75-44f5-b59e-ae54ef718d25",
-                "title": "Create Impactful Videos with AI",
-                "tagline": "AI VIDEO CREATION",
-                "description": "Harness the power of AI to effortlessly produce captivating social media videos that drive engagement and grow your brand. Customize professional styles, optimize for every platform, and turn ideas into scroll-stopping content in minutes—no editing experience needed.",
-                "highlightedWord": "Impactful",
-                "primaryButtonDetails": {
-                    "primaryButtonLink": "#get-started",
-                    "primaryButtonText": "Start Creating Now"
-                },
-                "secondaryButtonDetails": {
-                    "secondaryButtonLink": "#features",
-                    "secondaryButtonText": "Discover Features",
-                    "showSecondaryButton": false
-                }
+    {
+      "type": "ProblemBlock",
+      "props": {
+        "id": "ProblemBlock-80ebecfa-8966-4921-8282-281ac84dc9b0",
+        "highlightedWord": "Conversion",
+        "comparisonHeadline": "AI-Powered Ads vs Manual Guesswork",
+        "visualBuilderDetails": {
+          "visualBuilderTitle": "Boost Results with AdSmart AI",
+          "visualBuilderAdvantages": [
+            {
+              "advantageIcon": "ChartBar",
+              "advantageTitle": "Dynamic High-Converting Ads",
+              "advantageDescription": "Automatically generate optimized social media ads tailored to your audience that drive clicks, leads, and sales effortlessly."
+            },
+            {
+              "advantageIcon": "LightBulb",
+              "advantageTitle": "Intelligent Targeting & Personalization",
+              "advantageDescription": "Leverage AI insights to deliver personalized ad content and target segments that maximize engagement and lower ad spend waste."
+            },
+            {
+              "advantageIcon": "RocketLaunch",
+              "advantageTitle": "Real-Time Performance Optimization",
+              "advantageDescription": "Continuously analyze and adjust your campaigns with AI-driven recommendations to maximize ROI and scale your social advertising."
             }
+          ]
         },
-        {
-            "type": "ProblemBlock",
-            "props": {
-                "id": "ProblemBlock1-5ea79086-d665-482d-88a3-cb2b0045dc05",
-                "highlightedWord": "Creation",
-                "comparisonHeadline": "AI-Powered Video Creation vs Manual Editing Hassles",
-                "visualBuilderDetails": {
-                    "visualBuilderTitle": "Create with VidBot",
-                    "visualBuilderAdvantages": [
-                        {
-                            "advantageIcon": "ClipboardList",
-                            "advantageTitle": "Instant Social-Ready Videos",
-                            "advantageDescription": "Produce stunning, optimized videos for Instagram, TikTok, Facebook and beyond in minutes, powered by smart AI templates designed for maximum platform impact."
-                        },
-                        {
-                            "advantageIcon": "Timer",
-                            "advantageTitle": "Seamless Automation",
-                            "advantageDescription": "Effortlessly automate editing and tailor content to your audience with intelligent tools that save time and keep your social feed dynamic daily."
-                        },
-                        {
-                            "advantageIcon": "DollarSign",
-                            "advantageTitle": "Boost Engagement & Growth",
-                            "advantageDescription": "Elevate your brand’s reach with captivating videos engineered to amplify shares, increase followers, and accelerate conversions faster than traditional video methods."
-                        }
-                    ]
-                },
-                "comparisonSubheadline": "Discover how VidBot transforms social video creation with lightning-fast AI tools that align perfectly with your brand’s voice",
-                "traditionalDevDetails": {
-                    "traditionalDevTitle": "The Struggles of Classic Video Production",
-                    "traditionalDevDrawbacks": [
-                        {
-                            "drawbackText": "Cumbersome, time-intensive editing"
-                        },
-                        {
-                            "drawbackText": "Expensive professional editing fees"
-                        },
-                        {
-                            "drawbackText": "Inconsistent messaging and branding"
-                        },
-                        {
-                            "drawbackText": "Scaling content output feels impossible"
-                        },
-                        {
-                            "drawbackText": "Slow turnaround stifles social momentum"
-                        },
-                        {
-                            "drawbackText": "Hard to adapt quickly to trending content"
-                        }
-                    ]
-                },
-                "callToActionButtonLink": "#get-started",
-                "callToActionButtonText": "Create Viral Videos Today",
-                "closingCallToActionText": "Join thousands revolutionizing their social presence with VidBot’s AI-powered video generator designed for creators like you"
+        "comparisonSubheadline": "See how AI-driven ad creation outperforms traditional methods to transform your social media marketing success",
+        "traditionalDevDetails": {
+          "traditionalDevTitle": "Problems with Manual Ad Creation",
+          "traditionalDevDrawbacks": [
+            {
+              "drawbackText": "Time-consuming content development"
+            },
+            {
+              "drawbackText": "Difficulty targeting the right audience"
+            },
+            {
+              "drawbackText": "Inconsistent ad performance"
+            },
+            {
+              "drawbackText": "High cost due to inefficient spend"
+            },
+            {
+              "drawbackText": "Delayed optimization feedback"
+            },
+            {
+              "drawbackText": "Limited scalability of campaigns"
             }
+          ]
         },
-        {
-            "type": "Solution",
-            "props": {
-                "id": "Solution1-acf2f781-7372-4cd9-bbea-1c4b7414d373",
-                "ctaButton": {
-                    "buttonLink": "#try-for-free",
-                    "buttonText": "Make Your First Video Now",
-                    "showButton": true
-                },
-                "headerContent": {
-                    "mainTitle": "Create Videos That Captivate",
-                    "description": "Instantly produce eye-catching social media videos with AI precision tailored to your brand. No experience needed—just powerful content that connects and converts."
-                },
-                "solutionItems": [
-                    {
-                        "solutionTitle": "Dynamic Templates",
-                        "solutionSubTitle": "Custom videos in moments.",
-                        "solutionDescription": "Access a diverse collection of AI-enhanced templates engineered to maximize engagement while reflecting your unique style—launch viral-ready content effortlessly."
-                    },
-                    {
-                        "solutionTitle": "AI-Driven Editing",
-                        "solutionSubTitle": "Flawless, pro-quality edits.",
-                        "solutionDescription": "Leverage smart editing tools that automatically add seamless transitions, perfect cuts, and vibrant effects—making every video look polished and professional without the hassle."
-                    },
-                    {
-                        "solutionTitle": "Social Media Optimized",
-                        "solutionSubTitle": "Perfect fit for every platform.",
-                        "solutionDescription": "Export videos perfectly sized and formatted for Instagram, TikTok, Facebook, YouTube, and more—eliminate manual adjustments and reach your audience with precision."
-                    }
-                ]
-            }
+        "callToActionButtonLink": "#get-started",
+        "callToActionButtonText": "Create Your First Ad Now",
+        "closingCallToActionText": "Join thousands growing their brand with effortless AI-powered social ads"
+      }
+    },
+    {
+      "type": "Solution",
+      "props": {
+        "id": "Solution-d2271dac-8476-4583-a911-81c4e560387d",
+        "ctaButton": {
+          "buttonLink": "#start-creating-now",
+          "buttonText": "Generate Winning Ads Today",
+          "showButton": true
         },
-        {
-            "type": "SocialProof",
-            "props": {
-                "id": "SocialProof1-b7a2f0f1-c8c2-4599-ac15-b362e68ea90c",
-                "title": "Loved by Social Creators and Brands",
-                "description": "Hear from our users making waves on social media:",
-                "testimonials": [
-                    {
-                        "quote": "Since switching to this AI Video Generator, our engagement skyrocketed and content creation is effortless.",
-                        "title": "Social Media Manager, BrightBrand",
-                        "author": "Jack Sibire",
-                        "rating": 5,
-                        "avatarId": 4,
-                        "highlightedText": "engagement skyrocketed"
-                    },
-                    {
-                        "quote": "This tool transformed our video strategy—fast, intuitive, and perfect for social platforms.",
-                        "title": "Content Director, Mousio",
-                        "author": "Adele Mouse",
-                        "rating": 5,
-                        "avatarId": 5,
-                        "highlightedText": "transformed our video strategy"
-                    },
-                    {
-                        "quote": "The AI-driven features save us hours while boosting video quality unlike anything else we've tried.",
-                        "title": "CTO, Clockwork",
-                        "author": "Ben Clock",
-                        "rating": 5,
-                        "avatarId": 6,
-                        "highlightedText": "AI-driven features save us hours"
-                    }
-                ],
-                "titleHighlightedText": "2,047+ creators"
-            }
+        "headerContent": {
+          "mainTitle": "Automate Your Social Ads",
+          "description": "Harness the power of AI to instantly craft high-converting social media ads tailored to your brand, audience, and goals—boost engagement and maximize ROI without lifting a finger."
         },
-        {
-            "type": "Features",
-            "props": {
-                "id": "Features1-03643de3-fc61-4dd1-b1c5-47c573dea47c",
-                "label": "- FEATURE 1",
-                "title": "Create stunning videos instantly with ",
-                "button": {
-                    "link": "#try-for-free",
-                    "show": true,
-                    "text": "Get Started Free"
-                },
-                "description": "Our AI-powered video generator crafts eye-catching social media content in seconds, using smart templates and real-time customization to boost your engagement and save time.",
-                "titleHighlightedText": "AI"
-            }
+        "solutionItems": [
+          {
+            "solutionTitle": "Smart Ad Creation",
+            "solutionSubTitle": "AI crafts compelling ads for you.",
+            "solutionDescription": "Generate persuasive ad copy and eye-catching visuals optimized for Facebook, Instagram, LinkedIn, and more, all personalized through intelligent algorithms tuned to your target audience."
+          },
+          {
+            "solutionTitle": "Data-Backed Optimization",
+            "solutionSubTitle": "Ads that learn and improve.",
+            "solutionDescription": "Leverage real-time performance data and AI-driven insights to continuously refine your ads, ensuring maximum conversion rates and budget efficiency."
+          },
+          {
+            "solutionTitle": "Seamless Integration & Automation",
+            "solutionSubTitle": "Effortless campaign management.",
+            "solutionDescription": "Connect with your favorite social platforms and automate ad deployment, scheduling, and A/B testing—freeing your team to focus on strategy, not manual tasks."
+          }
+        ]
+      }
+    },
+    {
+      "type": "SocialProof",
+      "props": {
+        "id": "SocialProof-e7936c08-b23c-4377-9d0f-479e555c3466",
+        "title": "Leading brands trust AdGenie for",
+        "description": "See why top marketers choose our AI-powered platform to boost ad performance effortlessly:",
+        "testimonials": [
+          {
+            "quote": "AdGenie's AI-crafted ads increased our conversion rates by 4x while cutting creation time in half.",
+            "title": "Digital Marketing Manager, TrendWave",
+            "author": "Jessica Liu",
+            "rating": 5,
+            "avatarId": 4,
+            "highlightedText": "4x conversions"
+          },
+          {
+            "quote": "With AdGenie, our social campaigns now deliver precise targeting and engaging creatives on autopilot.",
+            "title": "Social Media Director, BoostLane",
+            "author": "Raj Patel",
+            "rating": 5,
+            "avatarId": 5,
+            "highlightedText": "smart targeting"
+          },
+          {
+            "quote": "This AI ad platform saved us countless hours and unlocked a new level of ad personalization that drives sales.",
+            "title": "Marketing Lead, ElevateCo",
+            "author": "Samantha Greene",
+            "rating": 5,
+            "avatarId": 6,
+            "highlightedText": "time-saving"
+          }
+        ],
+        "titleHighlightedText": "2,000+ companies"
+      }
+    },
+    {
+      "type": "Features",
+      "props": {
+        "id": "Features-5b20ead3-0d8f-47a0-8096-a9b3e0083cff",
+        "label": "- FEATURE 1",
+        "title": "Unlock powerful AI ",
+        "button": {
+          "link": "#try-for-free",
+          "show": true,
+          "text": "Generate Winning Ads"
         },
-        {
-            "type": "Features2",
-            "props": {
-                "id": "Features2-40e2e422-d254-4f8c-897b-bc0ea03cb1bd",
-                "label": "- FEATURE 2",
-                "title": "Create stunning videos the smart ",
-                "button": {
-                    "link": "#try-for-free",
-                    "show": true,
-                    "text": "Generate Your Video"
-                },
-                "description": "Our AI-powered video generator transforms your social media content with effortless automation, delivering eye-catching videos that boost engagement and save you hours of editing time.",
-                "titleHighlightedText": "way"
-            }
+        "description": "Harness the power of cutting-edge AI to automatically craft social media ads that captivate audiences and boost conversions. Our platform analyzes trends, optimizes copy and visuals in real-time, and delivers tailor-made campaigns designed to maximize your ad performance effortlessly.",
+        "titleHighlightedText": "AI"
+      }
+    },
+    {
+      "type": "Features2",
+      "props": {
+        "id": "Features2-0c41e860-0774-487a-94a9-80ef1497ef78",
+        "label": "- FEATURE 2",
+        "title": "Effortless ad insights",
+        "button": {
+          "link": "#try-for-free",
+          "show": true,
+          "text": "Boost your first ad now"
         },
-        {
-            "type": "Pricing",
-            "props": {
-                "id": "Pricing1-c0155bec-0c50-4004-aeb5-7922d7fc6789",
-                "plans": [
-                    {
-                        "cta": "Try Basic Plan Now",
-                        "name": "Basic",
-                        "badge": "",
-                        "price": 9,
-                        "featured": false,
-                        "description": "Perfect for solo creators and new social media users",
-                        "featureFlags": [
-                            {
-                                "value": true
-                            },
-                            {
-                                "value": false
-                            },
-                            {
-                                "value": false
-                            },
-                            {
-                                "value": false
-                            }
-                        ]
-                    },
-                    {
-                        "cta": "Level Up with Pro",
-                        "name": "Pro",
-                        "badge": "Most Popular",
-                        "price": 19,
-                        "featured": true,
-                        "description": "Ideal for influencers and growing brands craving more features",
-                        "featureFlags": [
-                            {
-                                "value": true
-                            },
-                            {
-                                "value": true
-                            },
-                            {
-                                "value": true
-                            },
-                            {
-                                "value": false
-                            }
-                        ]
-                    },
-                    {
-                        "cta": "Unlock Business Power",
-                        "name": "Business",
-                        "badge": "",
-                        "price": 99,
-                        "featured": false,
-                        "description": "Built for agencies and enterprises demanding full customization",
-                        "featureFlags": [
-                            {
-                                "value": true
-                            },
-                            {
-                                "value": true
-                            },
-                            {
-                                "value": true
-                            },
-                            {
-                                "value": true
-                            }
-                        ]
-                    }
-                ],
-                "title": "Simple Pricing",
-                "features": [
-                    {
-                        "value": "Unlimited video projects"
-                    },
-                    {
-                        "value": "24/7 expert support"
-                    },
-                    {
-                        "value": "Brandable custom domains"
-                    },
-                    {
-                        "value": "In-depth AI analytics"
-                    }
-                ],
-                "description": "Transparent pricing that fits every creator’s budget without compromising power."
-            }
+        "description": "Harness AI-powered analytics that deliver real-time insights into your social media ad performance, enabling you to fine-tune campaigns, maximize conversions, and understand audience engagement across all platforms effortlessly.",
+        "titleHighlightedText": "insights"
+      }
+    },
+    {
+      "type": "Pricing",
+      "props": {
+        "id": "Pricing-e4056ac3-8c0e-4464-a872-d7d3a4938c6c",
+        "plans": [
+          {
+            "cta": "Launch Smarter Ads Today",
+            "name": "Starter",
+            "badge": "",
+            "price": 9,
+            "featured": false,
+            "description": "Ideal for solo entrepreneurs aiming to create smart, automated social media ads with essential AI-powered tools",
+            "featureFlags": [
+              {
+                "value": true
+              },
+              {
+                "value": false
+              },
+              {
+                "value": false
+              },
+              {
+                "value": false
+              }
+            ]
+          },
+          {
+            "cta": "Boost Campaigns with Pro",
+            "name": "Pro",
+            "badge": "Most Popular",
+            "price": 19,
+            "featured": true,
+            "description": "Perfect for growing brands and agencies craving advanced AI ad creation, multi-channel optimization, and detailed performance insights",
+            "featureFlags": [
+              {
+                "value": true
+              },
+              {
+                "value": true
+              },
+              {
+                "value": true
+              },
+              {
+                "value": false
+              }
+            ]
+          },
+          {
+            "cta": "Scale Impact with Enterprise",
+            "name": "Enterprise",
+            "badge": "",
+            "price": 99,
+            "featured": false,
+            "description": "Comprehensive AI-driven ad automation and analytics designed for large teams focused on maximizing ROI and audience engagement",
+            "featureFlags": [
+              {
+                "value": true
+              },
+              {
+                "value": true
+              },
+              {
+                "value": true
+              },
+              {
+                "value": true
+              }
+            ]
+          }
+        ],
+        "title": "Pricing",
+        "features": [
+          {
+            "value": "Automatic generation of high-converting social media ads across platforms"
+          },
+          {
+            "value": "24/7 dedicated AI support and campaign optimization tips"
+          },
+          {
+            "value": "Branded ad templates customizable for your business voice"
+          },
+          {
+            "value": "In-depth audience targeting and performance analytics powered by AI"
+          }
+        ],
+        "description": "Select your AI-powered plan to effortlessly create, optimize, and scale social media ad campaigns that drive real results and boost conversions."
+      }
+    },
+    {
+      "type": "FAQ",
+      "props": {
+        "id": "FAQ-8e82d77e-f6a0-4628-b8da-d74ca4fc135a",
+        "faqs": [
+          {
+            "answer": "Our AI-powered platform analyzes your target audience and campaign goals to automatically craft compelling social media ads that maximize engagement and conversions without any manual effort.",
+            "question": "How does the AI ad generator work?"
+          },
+          {
+            "answer": "Boost your social campaigns with personalized, data-driven ads that increase click-through rates, save time on creative ideation, and deliver measurable ROI improvements across multiple platforms.",
+            "question": "What are the key benefits?"
+          },
+          {
+            "answer": "Built for marketers of all experience levels, our user-friendly interface guides you seamlessly through campaign setup and lets you customize AI-generated ads easily—no tech skills necessary.",
+            "question": "Is the platform easy to use?"
+          },
+          {
+            "answer": "Yes, we provide scalable pricing options tailored for freelancers, agencies, and enterprises, so you only pay for the features and ad volume that fit your unique advertising needs.",
+            "question": "Are there flexible pricing plans?"
+          },
+          {
+            "answer": "Absolutely! Try all premium features free for 14 days, no credit card required, so you can experience firsthand how our AI transforms your social media advertising strategy risk-free.",
+            "question": "Do you offer a free trial?"
+          },
+          {
+            "answer": "Getting started is quick—just click the “Generate My Ads” button above or visit our pricing page to choose a plan that supercharges your social media campaigns with AI-driven ads.",
+            "question": "How do I sign up?"
+          }
+        ],
+        "title": "Got Questions?"
+      }
+    },
+    {
+      "type": "About",
+      "props": {
+        "id": "About-9c11aefe-4409-4535-aa55-3e090ecb69ac",
+        "label": "- MEET THE CREATOR",
+        "outro": "I'm passionate about revolutionizing advertising with AI-driven creativity and transparency. Join us as we automate your social ads to deliver unmatched conversion rates and effortless campaign success! 🚀",
+        "heading": "Hi, I'm Luke",
+        "subtitle": "Crafting smarter social ads with AI",
+        "paragraphs": [
+          {
+            "value": "I built this intelligent AI Ad Generator to help brands automatically create high-converting social media ads that resonate with audiences and maximize ROI effortlessly."
+          },
+          {
+            "value": "Clients often ask me:"
+          },
+          {
+            "value": "- How can I generate engaging social ads that truly convert without wasting time?\n- What’s the secret to adapting ad copy quickly to changing trends and audiences?"
+          },
+          {
+            "value": "My answer: An AI-powered platform that crafts compelling ads optimized for each social channel, learning and improving with every campaign to boost your results."
+          }
+        ],
+        "principles": [
+          {
+            "title": "Automated ad creation",
+            "description": "Generate tailored ad content instantly with AI that understands your brand voice and audience preferences."
+          },
+          {
+            "title": "Performance-driven optimization",
+            "description": "Continuously refine ad designs and copy using machine learning to achieve higher click-through and conversion rates."
+          },
+          {
+            "title": "Effortless scalability",
+            "description": "Launch multiple personalized campaigns across platforms without manual work, saving time while increasing reach and impact."
+          }
+        ]
+      }
+    },
+    {
+      "type": "CTA",
+      "props": {
+        "id": "CTA-16b14439-c3cc-4b73-a101-501f10dfd7ad",
+        "button": {
+          "link": "#start-ads",
+          "show": true,
+          "text": "Create High-Impact Ads Now"
         },
-        {
-            "type": "FAQ",
-            "props": {
-                "id": "FAQ1-0b107a8f-6fbf-4902-a384-280bc30c5097",
-                "faqs": [
-                    {
-                        "question": "How does the AI video generator work?",
-                        "answer": "Our AI-powered tool transforms your ideas into stunning social media videos in minutes, using advanced algorithms and customizable templates—no experience needed."
-                    },
-                    {
-                        "question": "What benefits can I expect?",
-                        "answer": "Create eye-catching videos faster, boost your social media engagement, save on production costs, and effortlessly scale your content strategy with our smart automation."
-                    },
-                    {
-                        "question": "Is it beginner-friendly?",
-                        "answer": "Definitely! Our intuitive interface lets anyone produce professional-quality videos without any editing skills or technical know-how."
-                    },
-                    {
-                        "question": "Can I get custom features or pricing?",
-                        "answer": "Yes! Reach out to our team for personalized plans tailored to your unique content goals and volume requirements."
-                    },
-                    {
-                        "question": "Is there a free trial available?",
-                        "answer": "Absolutely. Try all features free for 14 days with no credit card required and cancel anytime if it’s not the perfect fit."
-                    },
-                    {
-                        "question": "How do I get started?",
-                        "answer": "Click the 'Create Video' button on the top right or visit our pricing page to pick the best plan and start generating videos instantly."
-                    }
-                ],
-                "title": "FAQs"
-            }
-        },
-        {
-            "type": "About",
-            "props": {
-                "id": "About1-f69c71a0-2c9a-4cbb-81b4-0e2aff409c85",
-                "label": "- DISCOVER OUR AI",
-                "outro": "Join thousands of creators transforming social media with effortless, stunning videos. Experience the future of video creation today! 🚀",
-                "heading": "Meet Your AI Video Partner",
-                "subtitle": "Transform your social media videos instantly.",
-                "paragraphs": [
-                    {
-                        "value": "Our AI Video Generator tool empowers you to create eye-catching social media videos in minutes, no editing skills needed."
-                    },
-                    {
-                        "value": "Content creators ask us:"
-                    },
-                    {
-                        "value": "- How can I save time on video production?\n- How do I make engaging videos that get noticed?"
-                    },
-                    {
-                        "value": "Our solution: smart automation paired with creative control for videos that stand out and drive engagement."
-                    }
-                ],
-                "principles": [
-                    {
-                        "title": "Effortless video creation",
-                        "description": "AI-driven templates and smart editing to produce professional videos in seconds"
-                    },
-                    {
-                        "title": "Tailored for social media",
-                        "description": "Optimized formats and styles designed to boost reach and engagement across platforms"
-                    },
-                    {
-                        "title": "Powerful yet simple",
-                        "description": "User-friendly interface with advanced AI features for creators at any skill level"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "CTA",
-            "props": {
-                "id": "CTA1-899ad685-070f-4415-9413-81273bea7701",
-                "button": {
-                    "link": "#start-trial",
-                    "show": true,
-                    "text": "Create Stunning Videos Now"
-                },
-                "avatars": [
-                    {
-                        "avatarId": 32
-                    },
-                    {
-                        "avatarId": 44
-                    },
-                    {
-                        "avatarId": 65
-                    },
-                    {
-                        "avatarId": 75
-                    },
-                    {
-                        "avatarId": 12
-                    },
-                    {
-                        "avatarId": 68
-                    }
-                ],
-                "heading": "Elevate Your Social Reach",
-                "description": "Transform your social media with AI-powered video creation that’s fast, effortless, and tailored to captivate your audience.",
-                "foundersCount": 3582
-            }
-        }
-    ]
+        "avatars": [
+          {
+            "avatarId": 32
+          },
+          {
+            "avatarId": 44
+          },
+          {
+            "avatarId": 65
+          },
+          {
+            "avatarId": 75
+          },
+          {
+            "avatarId": 12
+          },
+          {
+            "avatarId": 68
+          }
+        ],
+        "heading": "Boost Your Reach Instantly",
+        "description": "Harness our AI-powered ad generator to craft tailored social media campaigns that convert more clicks into customers, delivering data-driven creatives and automated optimization for unmatched advertising results.",
+        "foundersCount": 3582
+      }
+    }
+  ]
 }
